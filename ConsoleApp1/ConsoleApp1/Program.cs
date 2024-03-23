@@ -4,13 +4,13 @@ Console.WriteLine("Hello, World 3!");
 
 static double Average(int[] arr)
 {
-    double sum = 0;
+    double tmpSum = 0;
     for (int i = 0; i < arr.Length; i++)
     {
-        sum += arr[i];
+        tmpSum += arr[i];
     }
 
-    return sum / arr.Length;
+    return tmpSum / arr.Length;
 }
 Console.WriteLine(Average([3, 5, 9, -2]));
 
